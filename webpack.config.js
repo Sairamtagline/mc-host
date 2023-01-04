@@ -46,10 +46,7 @@ module.exports = (env, argv) => {
         name: "host",
         filename: "remoteEntry.js",
         remotes: {
-          mc_header:
-            argv.mode === "development"
-              ? "mc_header@http://localhost:3001/remoteEntry.js"
-              : "mc_header@https://4caab7a8.mc-header.pages.dev/remoteEntry.js",
+          mc_header: "mc_header@http://localhost:3001/remoteEntry.js",
         },
         exposes: {},
         shared: {
