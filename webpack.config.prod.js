@@ -39,7 +39,7 @@ module.exports = {
       filename: "remoteEntry.js",
       remotes: {
         mc_header:
-          "mc_header@https://4caab7a8.mc-header.pages.dev/remoteEntry.js",
+          "mc_header@https://mc-header.pages.dev/remoteEntry.js",
       },
       exposes: {
         "./App": "./src/App.jsx",
