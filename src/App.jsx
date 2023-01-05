@@ -13,10 +13,10 @@ const App = () => {
   }, []);
 
   return (
-    <div className="mt-10 text-3xl mx-auto max-w-6xl">
+    <>
       <div>Name: mc-host</div>
       <div ref={divRef}></div>
-    </div>
+    </>
   );
 };
 ReactDOM.render(<App />, document.getElementById("app"));
